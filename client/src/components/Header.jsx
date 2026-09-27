@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-
+import "./Header.css";
 function Header() {
   return (
     <header>
-      <h1>My Portfolio</h1>
+      <h1>Hello, I am <span className="highlight-word">Sierra</span>.</h1>
+      <h2>Aspiring Software Engineer</h2>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
