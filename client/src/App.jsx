@@ -1,13 +1,14 @@
-import Header from './Header.jsx';
-import Footer from './Footer.jsx';
-//this is the root
+import { BrowserRouter as Router } from "react-router-dom";
+import MainRouter from "./MainRouter.jsx";
+import Footer from "./components/Footer.jsx";
+
 function App() {
-  return(
-    <>
-      <Header/>
-      <Footer/>
-    </>
+  return (
+    <Router>
+      <MainRouter />
+      <Footer />
+    </Router>
   );
 }
 
-export default App
+export default App;

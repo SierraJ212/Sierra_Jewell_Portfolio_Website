@@ -1,27 +1,27 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/Contact";
-import Services from "./components/Services";
 import Projects from "./components/Projects";
-import Refrences from "./components/References";
-import Header from "./components/Header";
+import Services from "./components/Services";
+import References from "./components/References";
+import Contact from "./components/Contact";
 
 const MainRouter = () => {
   return (
     <div>
-        <Header />
-        <Layout />
-        <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/education" element={<Contact />} />
-        <Route exact path="/project" element={<Services />} />
-        <Route exact path="/contact" element={<Projects />} />
-        <Route exact path="/contact" element={<Refrences />} />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/references" element={<References />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
 };
+
 export default MainRouter;
