@@ -1,7 +1,7 @@
 :root {
   --text: #7A9057;
   --text-h: #7A9057;
-  --bg: #FFF4E9;
+  --bg: #FFF5E8;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -100,17 +100,18 @@ nav {
   border: 2px solid #83655F;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #c5ba7aac;
-  padding: 20px;
+  padding: 1px;
   margin: 10px;
-  text-align: center;
-  width: 450px;
+  text-align: left;
+  width: 750px;
   height: 400px;
   box-sizing:border-box;/*so border is not included in size*/
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   overflow: hidden;
   align-items: center;
   vertical-align: top;
+  gap:20px;
   transition: transform 0.3s ease;
   /*controls transition over 0.3s*/
 }
@@ -118,9 +119,11 @@ nav {
 .card .cardImg{
   max-width: 60%;
   height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  border:2px solid #83655F;
+  margin-left: 0px;
+  border-radius: 1px;
+  margin-bottom: 1px;
+  flex-shrink:0;
+ ;
 }
 .card:hover{
   transform: scale(1.05);
@@ -134,4 +137,28 @@ nav {
 .card .card-text{
   font-family: 'Josefin Sans', arial, sans-serif;
   color: hsla(83, 25%, 45%, 0.715);
+}
+
+.homepage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:30px;
+}
+.pfp{
+  border-radius: 50%;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.layout-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:30px;
+}
+.layout-content .img{
+  border-radius: 2px;
+  max-width: 250px;
+  max-height: 250px;
 }

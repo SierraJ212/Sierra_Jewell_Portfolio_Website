@@ -1,17 +1,16 @@
-import profilePic from "../assets/pfp.JPG";
+import apple from "../assets/apple.avif";
 import Card from "./Card.jsx";
 
 function Home() {
   return (
-    <div>
-      <h2>Welcome to My Portfolio</h2>
-      <p>Hi, I'm Sierra Jewell. This site showcases my work, skills, and experience.</p>
-      <Card
-        image={profilePic}
-        title="Sierra Jewell"
-        description="These are my projects, skills, and experience."
-      />
-    </div>
+    <>
+        <Card
+            image={apple}
+            title="My Vision for the future"
+            description="Looking ahead, I want to move beyond writing functional code toward designing
+            systems that are scalable, secure and useful to the people who rely on them."         
+        />
+    </>
   );
 }
 

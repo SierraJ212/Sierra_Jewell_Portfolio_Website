@@ -12,12 +12,12 @@ nav ul li a{
     text-decoration: none;
     font-weight: 500;
     color: #7A9057;
-   
+    transition: transform 0.3s ease;
 }
 nav ul li a:hover{
     color: #617541;
     font-family: 'DynaPuff';
-   
+    transform: scale(1.05);
 }
 h1{
     font-family: 'DynaPuff';
