@@ -1,4 +1,11 @@
 
+/**
+ * About page.
+ * Shows a profile photo with a short bio, plus a link that opens the resume PDF.
+ *
+ * @returns {JSX.Element} The About page
+ */
+
 import profilePic from "../assets/pfp.JPG";
 import Layout from "./Layout";
 import resume from "../assets/Sierra Jewell Resume_Enercare.pdf";

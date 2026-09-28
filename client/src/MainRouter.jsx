@@ -1,3 +1,13 @@
+/**
+ * Defines the site's page routes.
+ * Renders the Header above the routes so it appears on every page, then
+ * shows the matching page component for the current URL:
+ * "/" (Home), "/about", "/projects", "/services", "/references", "/contact".
+ *
+ * @returns {JSX.Element} The header and the active page
+ */
+
+
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";

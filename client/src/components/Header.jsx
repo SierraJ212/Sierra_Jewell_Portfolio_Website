@@ -1,3 +1,11 @@
+/**
+ * Site header.
+ * Shows the intro heading, job title, and the navigation links for every page.
+ * Styles live in Header.css.
+ *
+ * @returns {JSX.Element} The header and navigation bar
+ */
+
 import { Link } from "react-router-dom";
 import "./Header.css";
 function Header() {

@@ -1,3 +1,11 @@
+/**
+ * Services page.
+ * Lists the technical services I offer (web development, SQL, Java, Python)
+ * as Card components, with the current year as the date.
+ *
+ * @returns {JSX.Element} The Services page
+ */
+
 import databaseLogo from "../assets/databaseLogo2.png";
 import laptopLogo from "../assets/webDesignLogo.png";
 import pythonLogo from "../assets/pythonLogo.png";

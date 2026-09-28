@@ -1,3 +1,12 @@
+/**
+ * Projects page.
+ * Lists my academic projects as Card components, each with a title, image,
+ * description, and completion date.
+ *
+ * @returns {JSX.Element} The Projects page
+ */
+
+
 import databaseLogo from "../assets/databaseLogo.png";
 import petLogo from "../assets/petLogo.png";
 import laptopLogo from "../assets/laptopLogo.png";

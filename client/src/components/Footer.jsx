@@ -1,3 +1,11 @@
+/**
+ * Site footer.
+ * Displays the copyright notice with the current year.
+ *
+ * @returns {JSX.Element} The footer
+ */
+
+
 function Footer(){
 
     return(

@@ -1,3 +1,13 @@
+/**
+ * Contact page.
+ * Shows contact details in a panel, plus a controlled form that captures
+ * first name, last name, phone, email, and message. On submit, the data is
+ * logged and the user is redirected to the Home page with the form data
+ * passed along in the router state.
+ *
+ * @returns {JSX.Element} The Contact page
+ */
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 

@@ -1,3 +1,9 @@
+/*
+ * Header.css
+ * Styles for the site header: navigation layout, link colors and hover
+ * effect, and heading fonts.
+ */
+
 nav ul {
     list-style: none;
     display: flex;

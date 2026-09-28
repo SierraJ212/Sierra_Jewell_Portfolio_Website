@@ -1,3 +1,11 @@
+/**
+ * References page.
+ * Holds the testimonials section (to be added) and image attribution links
+ * for the Vecteezy graphics used on the site.
+ *
+ * @returns {JSX.Element} The References page
+ */
+
 function References() {
   return (
     <div>

@@ -1,3 +1,11 @@
+/**
+ * Home page.
+ * Presents my vision for the future using the Layout component, with a
+ * button that navigates to the About page.
+ *
+ * @returns {JSX.Element} The Home page
+ */
+
 import { useNavigate } from "react-router-dom";
 import apple from "../assets/apple.jpg";
 import Layout from "./Layout.jsx";
