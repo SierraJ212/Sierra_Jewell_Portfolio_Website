@@ -25,6 +25,13 @@ nav ul li a:hover{
     font-family: 'DynaPuff';
     
 }
+
+@media (max-width: 600px){
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 h1{
     font-family: 'DynaPuff';
 }
