@@ -48,7 +48,7 @@ body {
   box-sizing: border-box;
 }
 
-h1 { font-family: 'DynaPuff'; }
+h1 { font-family: 'fredoka', 'Gochi Hand','DynaPuff',Arial; }
 h2 {
     font-family: 'Josefin Sans', Times, serif;
     color: #3f322fe8;
@@ -304,4 +304,20 @@ hr {
 header img{
   max-height: 30px;
   width: auto;
+}
+
+.gochi-hand-regular {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.fredoka-uniquifier {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 637;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }

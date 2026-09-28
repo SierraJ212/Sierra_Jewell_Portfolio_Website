@@ -22,7 +22,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #D76050;
-    font-family: 'DynaPuff';
+    font-family: 'fredoka','Gochi Hand','DynaPuff', Arial, Helvetica, sans-serif;
     
 }
 
@@ -33,7 +33,8 @@ nav ul li a:hover{
     }
 }
 h1{
-    font-family: 'DynaPuff';
+    font-family: 'Gochi Hand','DynaPuff',Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 h2 {
     font-family: 'Josefin Sans','Times New Roman', Times, serif;
