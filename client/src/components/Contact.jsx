@@ -41,7 +41,7 @@ function Contact() {
         <p>Location: Toronto, ON</p>
         <p>
           <a href="https://www.linkedin.com/in/sierra-jewell/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          { "|" }
+          { " | " }
           <a href="https://github.com/SierraJ212" target="_blank" rel="noopener noreferrer">Github</a>
         </p>
       </div>
