@@ -261,3 +261,33 @@ hr {
 .resumeBtn:hover{
   transform: scale(1.09);
 }
+.contact-form{
+
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 700px;
+  width:60%;
+  background-color: #F7E7A8;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #3F322F;
+  text-align: center;
+  margin: 0 auto;/*centers the box*/
+  gap: 5px;
+  text-align: left;
+}
+.contact-form h2{
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  color: #3F322F;
+  font-family: 'Josefin Sans',Arial;
+  background-color: #f4f3ec;
+  border:2px solid #3F322F;
+  border-radius: 20px;
+  padding: 10px;
+
+}
