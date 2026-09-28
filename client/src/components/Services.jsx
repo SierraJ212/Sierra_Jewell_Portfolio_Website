@@ -1,8 +1,39 @@
+import databaseLogo from "../assets/databaseLogo2.png";
+import laptopLogo from "../assets/webDesignLogo.png";
+import pythonLogo from "../assets/pythonLogo.png";
+import JavaLogo from "../assets/JavaLogo.png";
+import Card from "./Card.jsx";
+
+
 function Services() {
   return (
     <div>
       <h2>Services</h2>
-      <p>A list of services you offer, each with a title and description, will go here.</p>
+      <p>Services that I offer.</p>
+      <Card
+        image={laptopLogo}
+        title="HTML/CSS/Javascript"
+        description="Creating responsive, well-designed web pages."
+        date={new Date().getFullYear()}
+        />
+        <Card
+        image={databaseLogo}
+        title="Oracle SQL"
+        description="Writing SQL queries to organize and retrieve data for real business needs."
+        date={new Date().getFullYear()}
+        />
+        <Card
+        image={JavaLogo}
+        title="Java"
+        description="Building object-oriented applications with clean, reusable code."
+        date={new Date().getFullYear()}
+        />
+        <Card
+        image={pythonLogo}
+        title="Python"
+        description="Writing readable scripts to solve problems quickly."
+        date={new Date().getFullYear()}
+        />
     </div>
   );
 }
