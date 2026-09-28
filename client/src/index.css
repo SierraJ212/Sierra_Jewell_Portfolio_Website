@@ -301,3 +301,7 @@ hr {
 .contact-page a:hover{
   transform: scale(1.09);
 }
+header img{
+  max-height: 30px;
+  width: auto;
+}
