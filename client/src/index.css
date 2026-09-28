@@ -53,7 +53,9 @@ h2 {
     font-family: 'Josefin Sans', Times, serif;
     color: #3f322fe8;
 }
-
+p {
+    font-family: 'Josefin Sans', Arial, serif;
+}
 h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
@@ -228,11 +230,12 @@ hr {
   background-color: #D76050;
   font-family: 'Josefin Sans',Arial, Helvetica, sans-serif;
   padding:20px;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 20px;
   cursor: pointer;
   margin-bottom: 20px;
   transition: 0.3s ease;
+  border: 2px solid #3F322F;
 }
 
 .btn:hover{
