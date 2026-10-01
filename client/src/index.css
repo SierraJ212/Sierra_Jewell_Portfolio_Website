@@ -226,6 +226,9 @@ hr {
   background-color: #D76050;
   border-radius: 2px;
 }
+.btnContainer .btn{
+  text-align: center;
+}
 .btn{
   background-color: #D76050;
   font-family: 'Josefin Sans',Arial, Helvetica, sans-serif;
