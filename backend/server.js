@@ -5,6 +5,11 @@ import morgan from 'morgan';//prints requests in terminal
 import cors from 'cors';//allows frontend to communicate to server
 import { connectToMongoDB } from './config/db.js'; //load function db.js
 
+import referenceRoutes from './routes/reference.js';
+import projectRoutes from './routes/project.js';
+import serviceRoutes from './routes/service.js';
+import userRoutes from './routes/users.js';
+
 const app = express();
 app.use(morgan('dev'));//logger
 app.use(cors());
@@ -14,6 +19,12 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.json({success:true, message: 'API is running'});
 });
+
+
+app.use('/api/references', referenceRoutes);
+app.use('/api/projects', projectRoutes);
+app.use('/api/services', serviceRoutes);
+app.use('/api/users', userRoutes);
 
 app.use((req, res, next) => {
     next(createError(404, 'Route not found'));
