@@ -17,6 +17,7 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import References from "./components/References";
 import Contact from "./components/Contact";
+import AdminDashboard from "./components/AdminDashboard";
 
 const MainRouter = () => {
   return (
@@ -29,6 +30,7 @@ const MainRouter = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/references" element={<References />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
     </div>
   );
