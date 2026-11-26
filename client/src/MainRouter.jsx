@@ -20,6 +20,12 @@ import Contact from "./components/Contact";
 import AdminDashboard from "./components/AdminDashboard";
 import ProjectList from "./components/admin/ProjectList";
 import ProjectForm from "./components/admin/ProjectForm";
+import ServiceList from "./components/admin/ServiceList";
+import ServiceForm from "./components/admin/ServiceForm";
+import ReferenceList from "./components/admin/ReferenceList";
+import ReferenceForm from "./components/admin/ReferenceForm";
+import UserList from "./components/admin/UserList";
+import UserForm from "./components/admin/UserForm";
 
 const MainRouter = () => {
   return (
@@ -36,6 +42,15 @@ const MainRouter = () => {
         <Route path="/admin/projects" element={<ProjectList />} />
         <Route path="/admin/projects/new" element={<ProjectForm />} />
         <Route path="/admin/projects/:id/edit" element={<ProjectForm />} />
+        <Route path="/admin/services" element={<ServiceList />} />
+        <Route path="/admin/services/new" element={<ServiceForm />} />
+        <Route path="/admin/services/:id/edit" element={<ServiceForm />} />
+        <Route path="/admin/references" element={<ReferenceList />} />
+        <Route path="/admin/references/new" element={<ReferenceForm />} />
+        <Route path="/admin/references/:id/edit" element={<ReferenceForm />} />
+        <Route path="/admin/users" element={<UserList />} />
+        <Route path="/admin/users/new" element={<UserForm />} />
+        <Route path="/admin/users/:id/edit" element={<UserForm />} />
       </Routes>
     </div>
   );
