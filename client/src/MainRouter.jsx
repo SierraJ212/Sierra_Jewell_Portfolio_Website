@@ -18,6 +18,8 @@ import Services from "./components/Services";
 import References from "./components/References";
 import Contact from "./components/Contact";
 import AdminDashboard from "./components/AdminDashboard";
+import ProjectList from "./components/admin/ProjectList";
+import ProjectForm from "./components/admin/ProjectForm";
 
 const MainRouter = () => {
   return (
@@ -31,6 +33,9 @@ const MainRouter = () => {
         <Route path="/references" element={<References />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/admin/projects" element={<ProjectList />} />
+        <Route path="/admin/projects/new" element={<ProjectForm />} />
+        <Route path="/admin/projects/:id/edit" element={<ProjectForm />} />
       </Routes>
     </div>
   );
